@@ -36,17 +36,17 @@ The **Teacher Portal** provides a secure environment for administrators to handl
 
 ### 2. Backend Setup
 ```bash
-
 cd backend
 composer install
 cp .env.example .env
 php spark serve --port=8080
-
+```
 ### 3. Frontend Setup
 ```bash
 
 cd frontend
 npm install
 npm start
+```
 
 Access the app at: http://localhost:3000
